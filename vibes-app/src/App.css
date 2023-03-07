@@ -1,0 +1,36 @@
+.layer1 {
+  padding: 2rem;
+  text-align: center;
+  background-image: url('./blob-scene-haikei.svg');
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+.text {
+  padding: 2rem;
+}
+
+.question-bar {
+  max-width: 66%;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}

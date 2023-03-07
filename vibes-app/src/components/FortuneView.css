@@ -1,0 +1,26 @@
+.fortune-fade-enter {
+    opacity: 0;
+}
+  
+.fortune-fade-enter-active {
+    opacity: 1;
+    transition: opacity 3000ms ease-in;
+    transition-delay: 2s;
+}
+  
+.fortune-fade-exit {
+    opacity: 1;
+    transition-delay: 0s;
+}
+  
+.fortune-fade-exit-active {
+    opacity: 0;
+    transition: opacity 2000ms ease-in;
+    transition-delay: 0s;
+}
+  
+.input-clarity {
+    width: fit-content;
+    background-color: #0000002b;
+    color: #ffffff;
+}
